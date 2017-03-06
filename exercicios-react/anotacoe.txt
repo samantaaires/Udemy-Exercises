@@ -1,0 +1,20 @@
+ele usa o '.jsx' e precisa usar sempre a extensao
+import component from './componete.jsx' ... e para tirar ele precisa usar o "resolve" no webpack (2)
+
+
+padrao de função 'arrow function' que é "=>" com parenteses => ()
+
+
+Se for uma função eu posso usar o props direto {props.value}
+--> na vdd na função nao recebe o padrao props... pode ser qualquer nome de funcao
+Se for classe, eu preciso do this (this.props.value)
+
+Pra passar um value='' com valor de numero e nao string eu faço value={10}
+
+Os valores dentro de props sao somente leitura... nao posso fazer {this.props.value++}
+
+
+O ".bind' no handleChange é para expicitar que o "this" referencia o componente em questao
+
+
+O estado pode ser controlado(bind -- '' vazio) ou sem controle(undefined)

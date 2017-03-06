@@ -1,0 +1,12 @@
+no webpack config a entrada é "entry"  -> de onde vem o coiso
+a saida é "output" -> pra onde vai o coiso
+
+os "loaders" carregam os arquivos
+
+o     return {...objeto} é o operador spread,... que espalha.... O browser naturalmente nao reconhece esse operador... por isso é necessário fazer uma configuração no webpack pra add um pugin(6)
+
+precisa adicionar no webapck config o preset do react e tbm add ele com babel-preset-react no terminal
+
+
+o plugin "extract text" é pra ler os arquivos css e configura no webpack a tag plugins... depois de server;
+-> se gerar o coiso do bundle... tbm gera o arquvi "ap.css" -- shooow
